@@ -1,0 +1,54 @@
+# TechPulse: Hybrid Ensemble Tech Forecaster 📈
+
+**TechPulse** is a predictive data mining system and interactive dashboard built in R. It is designed to forecast the lifecycle and market adoption of 82 distinct programming languages, frameworks, and libraries over a 24-month horizon. 
+
+Relying on social media "hype" for technology adoption often leads to technical debt. To solve this, TechPulse analyzes 10 years of historical Stack Overflow engagement data and applies advanced signal processing to separate genuine market momentum from temporary stochastic noise.
+
+## 🧠 Core Architecture
+This project utilizes a **Multi-Stage Hybrid Ensemble** approach:
+1. **Signal Denoising:** Uses **Discrete Wavelet Transform (DWT)** to filter out high-frequency noise and sudden social media spikes.
+2. **Dimensionality Reduction:** Applies **SVD** to manage the high-dimensional landscape of 82 technologies.
+3. **Dual-Path Forecasting:** * **ARIMA Path:** Captures steady, linear statistical growth.
+   * **NNETAR Path:** Uses Neural Network Autoregression to learn complex, non-linear surges (S-curve adoption).
+4. **Ensemble Fusion:** Integrates both models to achieve a **15.6% reduction in Root Mean Squared Error (RMSE)** compared to standalone forecasting methods.
+
+---
+
+## 📸 Dashboard Screenshots
+
+*(Note: Drag and drop your image files directly into the GitHub editor to replace these placeholder links!)*
+
+### 1. Historical Explorer & DWT Denoising
+*Visualizing the raw Stack Overflow counts versus the mathematically smoothed underlying trend.*
+![Historical Explorer Screenshot](put-your-explorer-image-link-here.png)
+
+### 2. The 24-Month Forecast Engine
+*The Hybrid Ensemble projecting the future adoption lifecycle of the selected technology.*
+![Forecast Engine Screenshot](put-your-forecast-image-link-here.png)
+
+### 3. Model Evaluation & RMSE Metrics
+*Validating the accuracy of the Ensemble method against standalone ARIMA and NNETAR models.*
+![Metrics Screenshot](put-your-metrics-image-link-here.png)
+
+---
+
+## 🚀 How to Run the Application Locally
+
+To run this Shiny application on your local machine, ensure you have R and RStudio installed.
+
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/your-username/Hybrid-Ensemble-Tech-Mining.git](https://github.com/your-username/Hybrid-Ensemble-Tech-Mining.git)
+```
+**2. Install the required R packages:**
+
+Open RStudio, run the following command in the console to install dependencies:
+```bash
+install.packages(c("shiny", "forecast", "wavelets", "tseries", "ggplot2", "dplyr", "bslib"))
+```
+**3. Run the App:**
+
+Open the ```app.R``` file in RStudio and click the "Run App" button at the top of the script editor, or run:
+```bash
+shiny::runApp("app.R")
+```
