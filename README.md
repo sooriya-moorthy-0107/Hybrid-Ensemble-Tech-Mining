@@ -8,9 +8,10 @@ Relying on social media "hype" for technology adoption often leads to technical 
 This project utilizes a **Multi-Stage Hybrid Ensemble** approach:
 1. **Signal Denoising:** Uses **Discrete Wavelet Transform (DWT)** to filter out high-frequency noise and sudden social media spikes.
 2. **Dimensionality Reduction:** Applies **SVD** to manage the high-dimensional landscape of 82 technologies.
-3. **Dual-Path Forecasting:** * **ARIMA Path:** Captures steady, linear statistical growth.
+3. **Dual-Path Forecasting:**
+   * **ARIMA Path:** Captures steady, linear statistical growth.
    * **NNETAR Path:** Uses Neural Network Autoregression to learn complex, non-linear surges (S-curve adoption).
-4. **Ensemble Fusion:** Integrates both models to achieve a **15.6% reduction in Root Mean Squared Error (RMSE)** compared to standalone forecasting methods.
+5. **Ensemble Fusion:** Integrates both models to achieve a **15.6% reduction in Root Mean Squared Error (RMSE)** compared to standalone forecasting methods.
 
 ---
 
