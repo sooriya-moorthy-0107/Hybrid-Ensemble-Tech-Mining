@@ -16,7 +16,6 @@ This project utilizes a **Multi-Stage Hybrid Ensemble** approach:
 
 ## 📸 Dashboard Screenshots
 
-*(Note: Drag and drop your image files directly into the GitHub editor to replace these placeholder links!)*
 
 ### 1. Historical Explorer & DWT Denoising
 *Visualizing the raw Stack Overflow counts versus the mathematically smoothed underlying trend.*
