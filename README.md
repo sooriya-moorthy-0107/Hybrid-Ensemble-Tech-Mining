@@ -20,15 +20,16 @@ This project utilizes a **Multi-Stage Hybrid Ensemble** approach:
 
 ### 1. Historical Explorer & DWT Denoising
 *Visualizing the raw Stack Overflow counts versus the mathematically smoothed underlying trend.*
-![Historical Explorer Screenshot](put-your-explorer-image-link-here.png)
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/d3d87f73-3ea0-4b30-a8b3-3c83767f3c7a" />
 
 ### 2. The 24-Month Forecast Engine
 *The Hybrid Ensemble projecting the future adoption lifecycle of the selected technology.*
-![Forecast Engine Screenshot](put-your-forecast-image-link-here.png)
+<img width="1919" height="1036" alt="image" src="https://github.com/user-attachments/assets/39107bfa-10a6-4d09-8670-426056e8213b" />
+
 
 ### 3. Model Evaluation & RMSE Metrics
 *Validating the accuracy of the Ensemble method against standalone ARIMA and NNETAR models.*
-![Metrics Screenshot](put-your-metrics-image-link-here.png)
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/676c2181-8658-4640-b591-af88fb72a7f8" />
 
 ---
 
@@ -52,3 +53,5 @@ Open the ```app.R``` file in RStudio and click the "Run App" button at the top o
 ```bash
 shiny::runApp("app.R")
 ```
+**4. Some Graphs**
+<img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/45cfdf42-3851-4fde-9ddd-c30f610b0c0d" />
